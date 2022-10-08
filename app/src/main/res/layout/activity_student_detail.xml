@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentDetail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/user"
+            android:id="@+id/imgStudent"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="Đỗ Huỳnh Ngọc Thế"
+                android:id="@+id/tvName"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="1911505310162"
+                android:id="@+id/tvMsv"
+                android:layout_gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Quảng Nam"
+            android:id="@+id/tvCountry"
+            android:layout_gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="2158722455212"
+            android:id="@+id/tvPhoneNumber"
+            android:layout_gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="thedohuynh@gmail.com"
+            android:id="@+id/tvEmail"
+            android:layout_gravity="left"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:id="@+id/dangKi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:text="Quay lại"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
