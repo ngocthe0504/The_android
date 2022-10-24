@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void btnGetContacts(View v) {
-
+        getPhoneContacts();
     }
 
     private void getPhoneContacts() {
@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         Log.i("CONTACT_PROVIDER_DEMO", "TOTAL # of contacts ::: " + Integer.toString(cursor.getCount()));
         if(cursor.getCount() > 0) {
             while (cursor.moveToNext()) {
-                @SuppressLint("Range") String contactName = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
-                @SuppressLint("Range") String contactNumber = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+                String contactName = cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+                String contactNumber = cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
                 Log.i("CONTACTS_PROVIDER_DEMO", "Contact name :::  " + contactName + "Ph #  ::: " + contactNumber);
 
             }
