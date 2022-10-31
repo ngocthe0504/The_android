@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarDetail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="#FF3333"
+            app:logo="@drawable/s"
+            app:title="Phone"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="@color/white">
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <LinearLayout
+            android:id="@+id/body"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <RelativeLayout
+                android:id="@+id/product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="138dp"
+                    android:layout_height="104dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/iphon13" />
+
+                <ImageView
+                    android:id="@+id/ip1"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/imageView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="-130dp"
+                    android:layout_marginBottom="100dp"
+                    android:src="@drawable/ip13_1" />
+
+                <ImageView
+                    android:id="@+id/ip2"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/imageView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="-130dp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_marginLeft="90dp"
+                    android:src="@drawable/ip13_2" />
+
+
+
+
+                <TextView
+                    android:id="@+id/tvtensp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:text="IPhone 13 Pro Max Xanh 1TP"
+                    android:textColor="@color/black"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:id="@+id/tvgia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvtensp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:text="Giá: 47.000.000 VNĐ"
+                    android:textColor="@color/red"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/tvgia"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="22dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:id="@+id/tru"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/minus" />
+
+                    <TextView
+                        android:id="@+id/btslg"
+                        android:layout_width="30dp"
+                        android:layout_height="32dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/pink"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/cong"
+                        android:layout_width="30dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/plus1600" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông số kỹ thuật"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:id="@+id/add_cart"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm vào giỏ"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/border_around"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kích thước màn hình"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Công nghệ màn hình"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dung lượng RAM"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bộ nhớ trong"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dung lượng pin"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="7dp"
+                   >
+                    <TextView
+                        android:id="@+id/sizemanhinh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kích thước màn hình"
+
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:id="@+id/loaimanhinh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Công nghệ màn hình"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="13dp"/>
+                    <TextView
+                        android:id="@+id/ram"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dung lượng RAM"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="13dp"/>
+                    <TextView
+                        android:id="@+id/rom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bộ nhớ trong"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="13dp"/>
+                    <TextView
+                        android:id="@+id/pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dung lượng pin"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="13dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/km"
+                android:layout_width="380dp"
+                android:layout_height="218dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="KHUYẾN MÃI"
+                    android:textColor="@color/red"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KHÁCH HÀNG CHỌN MỘT TRONG CÁC KHUYẾN MẠI SAU:"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    + Khuyến mại 1: Trả góp 0% trên giá bán lẻ"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    + Khuyến mại 2: Giảm ngay đến 3,000,000đ cho Khách hàng Viettel nâng cấp lên gói cước trả sau V1000S (hoặc trợ giá tương đương 3 tháng cước cho các gói V300S, V500S, V700S)."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    + Khuyến mại 3: Giảm ngay 2,000,000đ khi mua kèm gói cước trọn gói năm 12V300S (giá gốc 3,600,000đ)."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"                >
+
+                <TextView
+                    android:id="@+id/tvnameside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:text="Sản phẩm tương tự"
+                    android:textAllCaps="true"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="6dp"
+                    android:text="Xem thêm"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/my_recycler5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvnameside"
+                    android:layout_marginTop="8dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".062"
+        app:layout_constraintVertical_bias="1"
+        android:background="@color/white">
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_border2"
+
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Chỉnh Sửa"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_name_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Tên người mua"
+            android:padding="8dp"
+            android:background="@drawable/round_border2"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_sdt_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Số điện thoại"
+            android:padding="8dp"
+            android:background="@drawable/round_border2"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_address_checkout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Tên người mua"
+            android:background="@drawable/round_border2"
+            android:padding="8dp"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="100dp"
+            android:id="@+id/btnCancel_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btnSave_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu"/>
+    </LinearLayout>
+</LinearLayout>
