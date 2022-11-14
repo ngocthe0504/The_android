@@ -5,7 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c019dc1a-e3c2-47b4-9a63-8857d98ec433" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Contacts/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contacts/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/androidTest/java/com/example/btkt/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/java/com/example/btkt/ListSingerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/java/com/example/btkt/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/layout/activity_list_singer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/app/src/test/java/com/example/btkt/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTKT1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/java/com/example/foodapp/ListFoodActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/java/com/example/foodapp/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/java/com/example/foodapp/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/java/com/example/foodapp/adapter/FoodAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/java/com/example/foodapp/model/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/drawable/food1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/drawable/food3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/drawable/food4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/drawable/food5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/drawable/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/layout/activity_list_food.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/layout/dialog_food.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/layout/item_food.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FoodApp/app/src/main/res/menu/menu_content.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +97,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/android/FoodApp-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
